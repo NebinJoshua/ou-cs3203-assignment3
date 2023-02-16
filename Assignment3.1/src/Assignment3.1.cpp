@@ -16,3 +16,14 @@ int add(int arr[]) {
 	}
 	return sum;
 }
+int mul(int arr[], int length){
+      int i;
+      int temp = 1;
+      for(i = 0; i < length; i++){
+          temp = temp * arr[i];
+      }
+      return temp;
+}
+
+
+
