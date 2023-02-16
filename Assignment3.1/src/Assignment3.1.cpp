@@ -24,6 +24,22 @@ int mul(int arr[], int length){
       }
       return temp;
 }
+int main() {
+      int a = 10;
+      int sum = 0;
+
+      int num[a];
+      for(int i = 0; i < a; i++){
+          cout << "Enter array values " << endl;
+          cin >> num[i];
+
+      }
+      sum = add(num);
+      cout << "Sum: " << sum;
+      int length = sizeof(num)/sizeof(num[0]);
+      int value = mul(num, length);
+      printf("\nArray Multiplication: %d", value);
+}
 
 
 
