@@ -49,6 +49,12 @@ int main() {
       int length = sizeof(num)/sizeof(num[0]);
       int value = mul(num, length);
       printf("\nArray Multiplication: %d", value);
+      cout << "\nReversed Array: " << endl;
+      reverse(num, 0, 10-1);
+      for(int k = 0; k < a; k++){
+          cout << num[k] << " ";
+      }
+
 }
 
 
