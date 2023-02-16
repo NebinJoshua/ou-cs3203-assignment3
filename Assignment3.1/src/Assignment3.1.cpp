@@ -24,6 +24,16 @@ int mul(int arr[], int length){
       }
       return temp;
 }
+void reverse(int arr[], int start, int end){
+      while(start < end){
+          int temp = arr[start];
+          arr[start] = arr[end];
+          arr[end] = temp;
+          start++;
+          end--;
+    }
+}
+
 int main() {
       int a = 10;
       int sum = 0;
